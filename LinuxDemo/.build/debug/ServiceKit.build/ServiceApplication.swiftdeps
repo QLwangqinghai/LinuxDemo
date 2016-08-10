@@ -1,0 +1,644 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DefaultDispatchSpecificKey"
+- "ServiceApplicationMain"
+- "ApplicationTerminateReply"
+- "ServiceApplicationDelegateProtocol"
+- "DefaultServiceApplication"
+- "ServiceApplication"
+- "ServiceApplicationDelegate"
+provides-nominal:
+- "O10ServiceKit25ApplicationTerminateReply"
+- "P10ServiceKit34ServiceApplicationDelegateProtocol"
+- "C10ServiceKit18ServiceApplication"
+- "C10ServiceKit26ServiceApplicationDelegate"
+provides-member:
+- ["O10ServiceKit25ApplicationTerminateReply", ""]
+- ["P10ServiceKit34ServiceApplicationDelegateProtocol", ""]
+- ["C10ServiceKit18ServiceApplication", ""]
+- ["C10ServiceKit26ServiceApplicationDelegate", ""]
+provides-dynamic-lookup:
+- "applicationDidResignActive"
+- "finishLaunching"
+- "applicationWillTerminate"
+- "applicationDidHide"
+- "applicationWillHide"
+- "hideOtherApplications"
+- "applicationShouldOpenUntitledFile"
+- "stopModal"
+- "stopModal"
+- "applicationWillBecomeActive"
+- "applicationWillFinishLaunching"
+- "applicationWillUnhide"
+- "isHidden"
+- "applicationDidBecomeActive"
+- "activateIgnoringOtherApps"
+- "isRunning"
+- "applicationOpenUntitledFile"
+- "abortModal"
+- "applicationDidUnhide"
+- "stop"
+- "applicationDidChangeScreenParameters"
+- "applicationWillUpdate"
+- "run"
+- "application"
+- "application"
+- "application"
+- "application"
+- "application"
+- "application"
+- "application"
+- "application"
+- "unhideAllApplications"
+- "applicationDidChangeOcclusionState"
+- "shared"
+- "applicationDidUpdate"
+- "isActive"
+- "applicationDidFinishLaunching"
+- "applicationWillResignActive"
+depends-top-level:
+- !private "DispatchQueue"
+- !private "~="
+- "DefaultDispatchSpecificKey"
+- "=="
+- "DispatchSpecificKey"
+- "UInt"
+- "String"
+- "Data"
+- "ServiceApplication"
+- "Notification"
+- "Bool"
+- "ServiceApplicationDelegate"
+- "ApplicationTerminateReply"
+- !private "BooleanLiteralType"
+- "ServiceApplicationDelegateProtocol"
+- "Error"
+- !private "NSHomeDirectory"
+- !private "RunLoop"
+- "Int"
+- "AnyObject"
+- "NSUserActivity"
+- "NSObjectProtocol"
+- "DefaultServiceApplication"
+- !private "print"
+- "NSObject"
+- "ServiceApplicationMain"
+depends-member:
+- !private ["Ps9AnyObject", "DefaultServiceApplication"]
+- ["Ps9AnyObject", "abortModal"]
+- ["Ps9AnyObject", "activateIgnoringOtherApps"]
+- ["Ps9AnyObject", "application"]
+- ["Ps9AnyObject", "applicationDidBecomeActive"]
+- ["Ps9AnyObject", "applicationDidChangeOcclusionState"]
+- ["Ps9AnyObject", "applicationDidChangeScreenParameters"]
+- ["Ps9AnyObject", "applicationDidFinishLaunching"]
+- ["Ps9AnyObject", "applicationDidHide"]
+- ["Ps9AnyObject", "applicationDidResignActive"]
+- ["Ps9AnyObject", "applicationDidUnhide"]
+- ["Ps9AnyObject", "applicationDidUpdate"]
+- ["Ps9AnyObject", "applicationOpenUntitledFile"]
+- ["Ps9AnyObject", "applicationShouldOpenUntitledFile"]
+- ["Ps9AnyObject", "applicationShouldTerminate"]
+- ["Ps9AnyObject", "applicationWillBecomeActive"]
+- ["Ps9AnyObject", "applicationWillFinishLaunching"]
+- ["Ps9AnyObject", "applicationWillHide"]
+- ["Ps9AnyObject", "applicationWillResignActive"]
+- ["Ps9AnyObject", "applicationWillTerminate"]
+- ["Ps9AnyObject", "applicationWillUnhide"]
+- ["Ps9AnyObject", "applicationWillUpdate"]
+- !private ["Ps9AnyObject", "async"]
+- !private ["Ps9AnyObject", "current"]
+- ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "finishLaunching"]
+- ["Ps9AnyObject", "hideOtherApplications"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "isActive"]
+- ["Ps9AnyObject", "isHidden"]
+- ["Ps9AnyObject", "isRunning"]
+- !private ["Ps9AnyObject", "main"]
+- ["Ps9AnyObject", "run"]
+- ["Ps9AnyObject", "shared"]
+- ["Ps9AnyObject", "stop"]
+- ["Ps9AnyObject", "stopModal"]
+- ["Ps9AnyObject", "unhideAllApplications"]
+- ["Ps9AnyObject", ""]
+- ["O10ServiceKit25ApplicationTerminateReply", "Later"]
+- ["O10ServiceKit25ApplicationTerminateReply", "Now"]
+- ["O10ServiceKit25ApplicationTerminateReply", "RawValue"]
+- ["O10ServiceKit25ApplicationTerminateReply", "deinit"]
+- ["O10ServiceKit25ApplicationTerminateReply", "hashValue"]
+- ["O10ServiceKit25ApplicationTerminateReply", "init"]
+- ["O10ServiceKit25ApplicationTerminateReply", "rawValue"]
+- !private ["Ps17BitwiseOperations", "Stride"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "DefaultServiceApplication"]
+- !private ["Ps7CVarArg", "Stride"]
+- ["Ps7CVarArg", "abortModal"]
+- ["Ps7CVarArg", "activateIgnoringOtherApps"]
+- ["Ps7CVarArg", "application"]
+- ["Ps7CVarArg", "applicationDidBecomeActive"]
+- ["Ps7CVarArg", "applicationDidChangeOcclusionState"]
+- ["Ps7CVarArg", "applicationDidChangeScreenParameters"]
+- ["Ps7CVarArg", "applicationDidFinishLaunching"]
+- ["Ps7CVarArg", "applicationDidHide"]
+- ["Ps7CVarArg", "applicationDidResignActive"]
+- ["Ps7CVarArg", "applicationDidUnhide"]
+- ["Ps7CVarArg", "applicationDidUpdate"]
+- ["Ps7CVarArg", "applicationOpenUntitledFile"]
+- ["Ps7CVarArg", "applicationShouldOpenUntitledFile"]
+- ["Ps7CVarArg", "applicationShouldTerminate"]
+- ["Ps7CVarArg", "applicationWillBecomeActive"]
+- ["Ps7CVarArg", "applicationWillFinishLaunching"]
+- ["Ps7CVarArg", "applicationWillHide"]
+- ["Ps7CVarArg", "applicationWillResignActive"]
+- ["Ps7CVarArg", "applicationWillTerminate"]
+- ["Ps7CVarArg", "applicationWillUnhide"]
+- ["Ps7CVarArg", "applicationWillUpdate"]
+- !private ["Ps7CVarArg", "async"]
+- !private ["Ps7CVarArg", "current"]
+- ["Ps7CVarArg", "delegate"]
+- ["Ps7CVarArg", "finishLaunching"]
+- !private ["Ps7CVarArg", "hashValue"]
+- ["Ps7CVarArg", "hideOtherApplications"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "isActive"]
+- ["Ps7CVarArg", "isHidden"]
+- ["Ps7CVarArg", "isRunning"]
+- !private ["Ps7CVarArg", "main"]
+- ["Ps7CVarArg", "run"]
+- ["Ps7CVarArg", "shared"]
+- ["Ps7CVarArg", "stop"]
+- ["Ps7CVarArg", "stopModal"]
+- ["Ps7CVarArg", "unhideAllApplications"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs11ClosedRange", "deinit"]
+- !private ["Ps10Comparable", "Stride"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Vs20CountableClosedRange", "deinit"]
+- !private ["Vs14CountableRange", "deinit"]
+- !private ["Ps28CustomDebugStringConvertible", "DefaultServiceApplication"]
+- ["Ps28CustomDebugStringConvertible", "abortModal"]
+- ["Ps28CustomDebugStringConvertible", "activateIgnoringOtherApps"]
+- ["Ps28CustomDebugStringConvertible", "application"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidBecomeActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidChangeOcclusionState"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidChangeScreenParameters"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidHide"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidResignActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidUnhide"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidUpdate"]
+- ["Ps28CustomDebugStringConvertible", "applicationOpenUntitledFile"]
+- ["Ps28CustomDebugStringConvertible", "applicationShouldOpenUntitledFile"]
+- ["Ps28CustomDebugStringConvertible", "applicationShouldTerminate"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillBecomeActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillFinishLaunching"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillHide"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillResignActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillTerminate"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillUnhide"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillUpdate"]
+- !private ["Ps28CustomDebugStringConvertible", "async"]
+- !private ["Ps28CustomDebugStringConvertible", "current"]
+- ["Ps28CustomDebugStringConvertible", "delegate"]
+- ["Ps28CustomDebugStringConvertible", "finishLaunching"]
+- ["Ps28CustomDebugStringConvertible", "hideOtherApplications"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "isActive"]
+- ["Ps28CustomDebugStringConvertible", "isHidden"]
+- ["Ps28CustomDebugStringConvertible", "isRunning"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- ["Ps28CustomDebugStringConvertible", "run"]
+- ["Ps28CustomDebugStringConvertible", "shared"]
+- ["Ps28CustomDebugStringConvertible", "stop"]
+- ["Ps28CustomDebugStringConvertible", "stopModal"]
+- ["Ps28CustomDebugStringConvertible", "unhideAllApplications"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps17CustomReflectable", "Stride"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "DefaultServiceApplication"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "abortModal"]
+- ["Ps23CustomStringConvertible", "activateIgnoringOtherApps"]
+- ["Ps23CustomStringConvertible", "application"]
+- ["Ps23CustomStringConvertible", "applicationDidBecomeActive"]
+- ["Ps23CustomStringConvertible", "applicationDidChangeOcclusionState"]
+- ["Ps23CustomStringConvertible", "applicationDidChangeScreenParameters"]
+- ["Ps23CustomStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps23CustomStringConvertible", "applicationDidHide"]
+- ["Ps23CustomStringConvertible", "applicationDidResignActive"]
+- ["Ps23CustomStringConvertible", "applicationDidUnhide"]
+- ["Ps23CustomStringConvertible", "applicationDidUpdate"]
+- ["Ps23CustomStringConvertible", "applicationOpenUntitledFile"]
+- ["Ps23CustomStringConvertible", "applicationShouldOpenUntitledFile"]
+- ["Ps23CustomStringConvertible", "applicationShouldTerminate"]
+- ["Ps23CustomStringConvertible", "applicationWillBecomeActive"]
+- ["Ps23CustomStringConvertible", "applicationWillFinishLaunching"]
+- ["Ps23CustomStringConvertible", "applicationWillHide"]
+- ["Ps23CustomStringConvertible", "applicationWillResignActive"]
+- ["Ps23CustomStringConvertible", "applicationWillTerminate"]
+- ["Ps23CustomStringConvertible", "applicationWillUnhide"]
+- ["Ps23CustomStringConvertible", "applicationWillUpdate"]
+- !private ["Ps23CustomStringConvertible", "async"]
+- !private ["Ps23CustomStringConvertible", "current"]
+- ["Ps23CustomStringConvertible", "delegate"]
+- ["Ps23CustomStringConvertible", "finishLaunching"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "hideOtherApplications"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "isActive"]
+- ["Ps23CustomStringConvertible", "isHidden"]
+- ["Ps23CustomStringConvertible", "isRunning"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- ["Ps23CustomStringConvertible", "run"]
+- ["Ps23CustomStringConvertible", "shared"]
+- ["Ps23CustomStringConvertible", "stop"]
+- ["Ps23CustomStringConvertible", "stopModal"]
+- ["Ps23CustomStringConvertible", "unhideAllApplications"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["CSo14DispatchObject", "async"]
+- !private ["CSo14DispatchObject", "main"]
+- !private ["CSo13DispatchQueue", "async"]
+- ["CSo13DispatchQueue", "deinit"]
+- !private ["CSo13DispatchQueue", "main"]
+- !private ["Ps9Equatable", "DefaultServiceApplication"]
+- !private ["Ps9Equatable", "Now"]
+- ["Ps9Equatable", "RawValue"]
+- !private ["Ps9Equatable", "Stride"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "abortModal"]
+- ["Ps9Equatable", "activateIgnoringOtherApps"]
+- ["Ps9Equatable", "application"]
+- ["Ps9Equatable", "applicationDidBecomeActive"]
+- ["Ps9Equatable", "applicationDidChangeOcclusionState"]
+- ["Ps9Equatable", "applicationDidChangeScreenParameters"]
+- ["Ps9Equatable", "applicationDidFinishLaunching"]
+- ["Ps9Equatable", "applicationDidHide"]
+- ["Ps9Equatable", "applicationDidResignActive"]
+- ["Ps9Equatable", "applicationDidUnhide"]
+- ["Ps9Equatable", "applicationDidUpdate"]
+- ["Ps9Equatable", "applicationOpenUntitledFile"]
+- ["Ps9Equatable", "applicationShouldOpenUntitledFile"]
+- ["Ps9Equatable", "applicationShouldTerminate"]
+- ["Ps9Equatable", "applicationWillBecomeActive"]
+- ["Ps9Equatable", "applicationWillFinishLaunching"]
+- ["Ps9Equatable", "applicationWillHide"]
+- ["Ps9Equatable", "applicationWillResignActive"]
+- ["Ps9Equatable", "applicationWillTerminate"]
+- ["Ps9Equatable", "applicationWillUnhide"]
+- ["Ps9Equatable", "applicationWillUpdate"]
+- !private ["Ps9Equatable", "async"]
+- !private ["Ps9Equatable", "current"]
+- ["Ps9Equatable", "delegate"]
+- ["Ps9Equatable", "finishLaunching"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "hideOtherApplications"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "isActive"]
+- ["Ps9Equatable", "isHidden"]
+- ["Ps9Equatable", "isRunning"]
+- !private ["Ps9Equatable", "main"]
+- ["Ps9Equatable", "rawValue"]
+- ["Ps9Equatable", "run"]
+- ["Ps9Equatable", "shared"]
+- ["Ps9Equatable", "stop"]
+- ["Ps9Equatable", "stopModal"]
+- ["Ps9Equatable", "unhideAllApplications"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps8Hashable", "DefaultServiceApplication"]
+- !private ["Ps8Hashable", "Now"]
+- ["Ps8Hashable", "RawValue"]
+- !private ["Ps8Hashable", "Stride"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "abortModal"]
+- ["Ps8Hashable", "activateIgnoringOtherApps"]
+- ["Ps8Hashable", "application"]
+- ["Ps8Hashable", "applicationDidBecomeActive"]
+- ["Ps8Hashable", "applicationDidChangeOcclusionState"]
+- ["Ps8Hashable", "applicationDidChangeScreenParameters"]
+- ["Ps8Hashable", "applicationDidFinishLaunching"]
+- ["Ps8Hashable", "applicationDidHide"]
+- ["Ps8Hashable", "applicationDidResignActive"]
+- ["Ps8Hashable", "applicationDidUnhide"]
+- ["Ps8Hashable", "applicationDidUpdate"]
+- ["Ps8Hashable", "applicationOpenUntitledFile"]
+- ["Ps8Hashable", "applicationShouldOpenUntitledFile"]
+- ["Ps8Hashable", "applicationShouldTerminate"]
+- ["Ps8Hashable", "applicationWillBecomeActive"]
+- ["Ps8Hashable", "applicationWillFinishLaunching"]
+- ["Ps8Hashable", "applicationWillHide"]
+- ["Ps8Hashable", "applicationWillResignActive"]
+- ["Ps8Hashable", "applicationWillTerminate"]
+- ["Ps8Hashable", "applicationWillUnhide"]
+- ["Ps8Hashable", "applicationWillUpdate"]
+- !private ["Ps8Hashable", "async"]
+- !private ["Ps8Hashable", "current"]
+- ["Ps8Hashable", "delegate"]
+- ["Ps8Hashable", "finishLaunching"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "hideOtherApplications"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "isActive"]
+- ["Ps8Hashable", "isHidden"]
+- ["Ps8Hashable", "isRunning"]
+- !private ["Ps8Hashable", "main"]
+- ["Ps8Hashable", "rawValue"]
+- ["Ps8Hashable", "run"]
+- ["Ps8Hashable", "shared"]
+- ["Ps8Hashable", "stop"]
+- ["Ps8Hashable", "stopModal"]
+- ["Ps8Hashable", "unhideAllApplications"]
+- ["Ps8Hashable", ""]
+- ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "Stride"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "Stride"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "ApplicationTerminateReply"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "Data"]
+- !private ["CSo8NSObject", "DefaultServiceApplication"]
+- ["CSo8NSObject", "Error"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "NSUserActivity"]
+- ["CSo8NSObject", "Notification"]
+- ["CSo8NSObject", "ServiceApplication"]
+- ["CSo8NSObject", "ServiceApplicationDelegateProtocol"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "abortModal"]
+- ["CSo8NSObject", "activateIgnoringOtherApps"]
+- ["CSo8NSObject", "application"]
+- ["CSo8NSObject", "applicationDidBecomeActive"]
+- ["CSo8NSObject", "applicationDidChangeOcclusionState"]
+- ["CSo8NSObject", "applicationDidChangeScreenParameters"]
+- ["CSo8NSObject", "applicationDidFinishLaunching"]
+- ["CSo8NSObject", "applicationDidHide"]
+- ["CSo8NSObject", "applicationDidResignActive"]
+- ["CSo8NSObject", "applicationDidUnhide"]
+- ["CSo8NSObject", "applicationDidUpdate"]
+- ["CSo8NSObject", "applicationOpenUntitledFile"]
+- ["CSo8NSObject", "applicationShouldOpenUntitledFile"]
+- ["CSo8NSObject", "applicationShouldTerminate"]
+- ["CSo8NSObject", "applicationWillBecomeActive"]
+- ["CSo8NSObject", "applicationWillFinishLaunching"]
+- ["CSo8NSObject", "applicationWillHide"]
+- ["CSo8NSObject", "applicationWillResignActive"]
+- ["CSo8NSObject", "applicationWillTerminate"]
+- ["CSo8NSObject", "applicationWillUnhide"]
+- ["CSo8NSObject", "applicationWillUpdate"]
+- !private ["CSo8NSObject", "async"]
+- !private ["CSo8NSObject", "current"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "finishLaunching"]
+- ["CSo8NSObject", "hideOtherApplications"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "isActive"]
+- ["CSo8NSObject", "isHidden"]
+- ["CSo8NSObject", "isRunning"]
+- !private ["CSo8NSObject", "main"]
+- ["CSo8NSObject", "run"]
+- ["CSo8NSObject", "shared"]
+- ["CSo8NSObject", "stop"]
+- ["CSo8NSObject", "stopModal"]
+- ["CSo8NSObject", "unhideAllApplications"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "AnyObject"]
+- ["PSo16NSObjectProtocol", "ApplicationTerminateReply"]
+- ["PSo16NSObjectProtocol", "Bool"]
+- ["PSo16NSObjectProtocol", "Data"]
+- !private ["PSo16NSObjectProtocol", "DefaultServiceApplication"]
+- ["PSo16NSObjectProtocol", "Error"]
+- ["PSo16NSObjectProtocol", "NSUserActivity"]
+- ["PSo16NSObjectProtocol", "Notification"]
+- ["PSo16NSObjectProtocol", "ServiceApplication"]
+- ["PSo16NSObjectProtocol", "String"]
+- ["PSo16NSObjectProtocol", "abortModal"]
+- ["PSo16NSObjectProtocol", "activateIgnoringOtherApps"]
+- ["PSo16NSObjectProtocol", "application"]
+- ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
+- ["PSo16NSObjectProtocol", "applicationDidChangeOcclusionState"]
+- ["PSo16NSObjectProtocol", "applicationDidChangeScreenParameters"]
+- ["PSo16NSObjectProtocol", "applicationDidFinishLaunching"]
+- ["PSo16NSObjectProtocol", "applicationDidHide"]
+- ["PSo16NSObjectProtocol", "applicationDidResignActive"]
+- ["PSo16NSObjectProtocol", "applicationDidUnhide"]
+- ["PSo16NSObjectProtocol", "applicationDidUpdate"]
+- ["PSo16NSObjectProtocol", "applicationOpenUntitledFile"]
+- ["PSo16NSObjectProtocol", "applicationShouldOpenUntitledFile"]
+- ["PSo16NSObjectProtocol", "applicationShouldTerminate"]
+- ["PSo16NSObjectProtocol", "applicationWillBecomeActive"]
+- ["PSo16NSObjectProtocol", "applicationWillFinishLaunching"]
+- ["PSo16NSObjectProtocol", "applicationWillHide"]
+- ["PSo16NSObjectProtocol", "applicationWillResignActive"]
+- ["PSo16NSObjectProtocol", "applicationWillTerminate"]
+- ["PSo16NSObjectProtocol", "applicationWillUnhide"]
+- ["PSo16NSObjectProtocol", "applicationWillUpdate"]
+- !private ["PSo16NSObjectProtocol", "async"]
+- !private ["PSo16NSObjectProtocol", "current"]
+- ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "finishLaunching"]
+- ["PSo16NSObjectProtocol", "hideOtherApplications"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "isActive"]
+- ["PSo16NSObjectProtocol", "isHidden"]
+- ["PSo16NSObjectProtocol", "isRunning"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- ["PSo16NSObjectProtocol", "run"]
+- ["PSo16NSObjectProtocol", "shared"]
+- ["PSo16NSObjectProtocol", "stop"]
+- ["PSo16NSObjectProtocol", "stopModal"]
+- ["PSo16NSObjectProtocol", "unhideAllApplications"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["CSo9OS_object", "async"]
+- !private ["CSo9OS_object", "main"]
+- ["Sq", "deinit"]
+- !private ["Vs5Range", "deinit"]
+- !private ["Ps16RawRepresentable", "Now"]
+- ["Ps16RawRepresentable", "RawValue"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", ""]
+- !private ["CSo7RunLoop", "current"]
+- ["CSo7RunLoop", "deinit"]
+- !private ["CSo7RunLoop", "run"]
+- ["C10ServiceKit18ServiceApplication", "AnyObject"]
+- ["C10ServiceKit18ServiceApplication", "Bool"]
+- !private ["C10ServiceKit18ServiceApplication", "DefaultServiceApplication"]
+- ["C10ServiceKit18ServiceApplication", "Int"]
+- ["C10ServiceKit18ServiceApplication", "ServiceApplication"]
+- ["C10ServiceKit18ServiceApplication", "ServiceApplicationDelegateProtocol"]
+- ["C10ServiceKit18ServiceApplication", "abortModal"]
+- ["C10ServiceKit18ServiceApplication", "activateIgnoringOtherApps"]
+- ["C10ServiceKit18ServiceApplication", "deinit"]
+- ["C10ServiceKit18ServiceApplication", "delegate"]
+- ["C10ServiceKit18ServiceApplication", "finishLaunching"]
+- ["C10ServiceKit18ServiceApplication", "hideOtherApplications"]
+- ["C10ServiceKit18ServiceApplication", "init"]
+- ["C10ServiceKit18ServiceApplication", "isActive"]
+- ["C10ServiceKit18ServiceApplication", "isHidden"]
+- ["C10ServiceKit18ServiceApplication", "isRunning"]
+- ["C10ServiceKit18ServiceApplication", "run"]
+- ["C10ServiceKit18ServiceApplication", "shared"]
+- ["C10ServiceKit18ServiceApplication", "stop"]
+- ["C10ServiceKit18ServiceApplication", "stopModal"]
+- ["C10ServiceKit18ServiceApplication", "unhideAllApplications"]
+- ["C10ServiceKit26ServiceApplicationDelegate", "AnyObject"]
+- ["C10ServiceKit26ServiceApplicationDelegate", "ApplicationTerminateReply"]
+- ["C10ServiceKit26ServiceApplicationDelegate", "Bool"]
+- ["C10ServiceKit26ServiceApplicationDelegate", "Data"]
+- ["C10ServiceKit26ServiceApplicationDelegate", "Error"]
+- ["C10ServiceKit26ServiceApplicationDelegate", "NSUserActivity"]
+- ["C10ServiceKit26ServiceApplicationDelegate", "Notification"]
+- ["C10ServiceKit26ServiceApplicationDelegate", "ServiceApplication"]
+- ["C10ServiceKit26ServiceApplicationDelegate", "String"]
+- ["C10ServiceKit26ServiceApplicationDelegate", "application"]
+- ["C10ServiceKit26ServiceApplicationDelegate", "applicationDidBecomeActive"]
+- ["C10ServiceKit26ServiceApplicationDelegate", "applicationDidChangeOcclusionState"]
+- ["C10ServiceKit26ServiceApplicationDelegate", "applicationDidChangeScreenParameters"]
+- ["C10ServiceKit26ServiceApplicationDelegate", "applicationDidFinishLaunching"]
+- ["C10ServiceKit26ServiceApplicationDelegate", "applicationDidHide"]
+- ["C10ServiceKit26ServiceApplicationDelegate", "applicationDidResignActive"]
+- ["C10ServiceKit26ServiceApplicationDelegate", "applicationDidUnhide"]
+- ["C10ServiceKit26ServiceApplicationDelegate", "applicationDidUpdate"]
+- ["C10ServiceKit26ServiceApplicationDelegate", "applicationOpenUntitledFile"]
+- ["C10ServiceKit26ServiceApplicationDelegate", "applicationShouldOpenUntitledFile"]
+- ["C10ServiceKit26ServiceApplicationDelegate", "applicationShouldTerminate"]
+- ["C10ServiceKit26ServiceApplicationDelegate", "applicationWillBecomeActive"]
+- ["C10ServiceKit26ServiceApplicationDelegate", "applicationWillFinishLaunching"]
+- ["C10ServiceKit26ServiceApplicationDelegate", "applicationWillHide"]
+- ["C10ServiceKit26ServiceApplicationDelegate", "applicationWillResignActive"]
+- ["C10ServiceKit26ServiceApplicationDelegate", "applicationWillTerminate"]
+- ["C10ServiceKit26ServiceApplicationDelegate", "applicationWillUnhide"]
+- ["C10ServiceKit26ServiceApplicationDelegate", "applicationWillUpdate"]
+- ["C10ServiceKit26ServiceApplicationDelegate", "deinit"]
+- ["C10ServiceKit26ServiceApplicationDelegate", "init"]
+- ["P10ServiceKit34ServiceApplicationDelegateProtocol", "AnyObject"]
+- ["P10ServiceKit34ServiceApplicationDelegateProtocol", "ApplicationTerminateReply"]
+- ["P10ServiceKit34ServiceApplicationDelegateProtocol", "Bool"]
+- ["P10ServiceKit34ServiceApplicationDelegateProtocol", "Data"]
+- ["P10ServiceKit34ServiceApplicationDelegateProtocol", "Error"]
+- ["P10ServiceKit34ServiceApplicationDelegateProtocol", "NSUserActivity"]
+- ["P10ServiceKit34ServiceApplicationDelegateProtocol", "Notification"]
+- ["P10ServiceKit34ServiceApplicationDelegateProtocol", "ServiceApplication"]
+- ["P10ServiceKit34ServiceApplicationDelegateProtocol", "String"]
+- ["P10ServiceKit34ServiceApplicationDelegateProtocol", "application"]
+- ["P10ServiceKit34ServiceApplicationDelegateProtocol", "applicationDidBecomeActive"]
+- ["P10ServiceKit34ServiceApplicationDelegateProtocol", "applicationDidChangeOcclusionState"]
+- ["P10ServiceKit34ServiceApplicationDelegateProtocol", "applicationDidChangeScreenParameters"]
+- ["P10ServiceKit34ServiceApplicationDelegateProtocol", "applicationDidFinishLaunching"]
+- ["P10ServiceKit34ServiceApplicationDelegateProtocol", "applicationDidHide"]
+- ["P10ServiceKit34ServiceApplicationDelegateProtocol", "applicationDidResignActive"]
+- ["P10ServiceKit34ServiceApplicationDelegateProtocol", "applicationDidUnhide"]
+- ["P10ServiceKit34ServiceApplicationDelegateProtocol", "applicationDidUpdate"]
+- ["P10ServiceKit34ServiceApplicationDelegateProtocol", "applicationOpenUntitledFile"]
+- ["P10ServiceKit34ServiceApplicationDelegateProtocol", "applicationShouldOpenUntitledFile"]
+- ["P10ServiceKit34ServiceApplicationDelegateProtocol", "applicationShouldTerminate"]
+- ["P10ServiceKit34ServiceApplicationDelegateProtocol", "applicationWillBecomeActive"]
+- ["P10ServiceKit34ServiceApplicationDelegateProtocol", "applicationWillFinishLaunching"]
+- ["P10ServiceKit34ServiceApplicationDelegateProtocol", "applicationWillHide"]
+- ["P10ServiceKit34ServiceApplicationDelegateProtocol", "applicationWillResignActive"]
+- ["P10ServiceKit34ServiceApplicationDelegateProtocol", "applicationWillTerminate"]
+- ["P10ServiceKit34ServiceApplicationDelegateProtocol", "applicationWillUnhide"]
+- ["P10ServiceKit34ServiceApplicationDelegateProtocol", "applicationWillUpdate"]
+- ["P10ServiceKit34ServiceApplicationDelegateProtocol", ""]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps10Strideable", "Stride"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["SS", "deinit"]
+- !private ["Su", "Stride"]
+- ["Su", "deinit"]
+- !private ["Ps15UnsignedInteger", "Stride"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "Stride"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Stride"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps14_Incrementable", "Stride"]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "Stride"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "Stride"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "Stride"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- "O10ServiceKit25ApplicationTerminateReply"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- "Ps7CVarArg"
+- !private "Vs11ClosedRange"
+- !private "Ps10Comparable"
+- !private "Vs20CountableClosedRange"
+- !private "Vs14CountableRange"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "CSo14DispatchObject"
+- "CSo13DispatchQueue"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps8Hashable"
+- "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps10MirrorPath"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "CSo9OS_object"
+- "Sq"
+- !private "Vs5Range"
+- "Ps16RawRepresentable"
+- "CSo7RunLoop"
+- "C10ServiceKit18ServiceApplication"
+- "C10ServiceKit26ServiceApplicationDelegate"
+- "P10ServiceKit34ServiceApplicationDelegateProtocol"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "SS"
+- "Su"
+- !private "Ps15UnsignedInteger"
+- !private "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+interface-hash: "88aed0c1a434cb8aac0068c6fe81d415"

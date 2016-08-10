@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/WangQinghai/vector2/SwiftLinuxDemo/.build/debug/Swift.build/master.swiftdeps"
+  },
+  "/Users/WangQinghai/vector2/SwiftLinuxDemo/Sources/main.swift": {
+    "dependencies": "/Users/WangQinghai/vector2/SwiftLinuxDemo/.build/debug/Swift.build/main.d",
+    "object": "/Users/WangQinghai/vector2/SwiftLinuxDemo/.build/debug/Swift.build/main.swift.o",
+    "swiftmodule": "/Users/WangQinghai/vector2/SwiftLinuxDemo/.build/debug/Swift.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/WangQinghai/vector2/SwiftLinuxDemo/.build/debug/Swift.build/main.swiftdeps"
+  }
+}
