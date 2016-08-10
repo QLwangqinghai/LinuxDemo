@@ -1,5 +1,0 @@
-version: "Apple Swift version 3.0 (swiftlang-800.0.41.2 clang-800.0.36)"
-options: "2e4fed1e2551a49bf5a4ddc7201f02a3"
-build_time: [524156269, 497340000]
-inputs:
-  "/Users/WangQinghai/vector2/SwiftLinuxDemo/Sources/main.swift": [524155805, 0]

@@ -1,8 +1,0 @@
-version: "Apple Swift version 3.0 (swiftlang-800.0.41.2 clang-800.0.36)"
-options: "62ae9c382fde0e281cf6a004e4ac2108"
-build_time: [524157426, 460295000]
-inputs:
-  "/Users/WangQinghai/vector2/SwiftLinuxDemo/LinuxDemo/Packages/ServiceKit-0.0.1/Sources/GCD.swift": [524157126, 0]
-  "/Users/WangQinghai/vector2/SwiftLinuxDemo/LinuxDemo/Packages/ServiceKit-0.0.1/Sources/Service.swift": [524157126, 0]
-  "/Users/WangQinghai/vector2/SwiftLinuxDemo/LinuxDemo/Packages/ServiceKit-0.0.1/Sources/ServiceApplication.swift": [524157126, 0]
-  "/Users/WangQinghai/vector2/SwiftLinuxDemo/LinuxDemo/Packages/ServiceKit-0.0.1/Sources/Thread.swift": !dirty [524157126, 0]
