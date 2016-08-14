@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F702DAE71FC7430DBA745AF4C6E452BFDA1C7579",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F702DAE71FC7430DBA745AF4C6E452BFDA1C7579" : 0,
+    "621D5F4E6340060AAD70513A3AA6DE6169DD7AA6" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7DFCD3DF-ADF5-480F-871E-F43F8B6E995E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F702DAE71FC7430DBA745AF4C6E452BFDA1C7579" : "SwiftLinuxDemo\/",
+    "621D5F4E6340060AAD70513A3AA6DE6169DD7AA6" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SwiftLinuxDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SwiftLinuxDemo\/SwiftLinuxDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/QLwangqinghai\/vector.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "621D5F4E6340060AAD70513A3AA6DE6169DD7AA6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/QLwangqinghai\/SwiftLinuxDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F702DAE71FC7430DBA745AF4C6E452BFDA1C7579"
+    }
+  ]
+}

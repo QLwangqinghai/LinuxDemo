@@ -10,8 +10,3 @@ import Foundation
 
 print("Hello, World!")
 
-import Darwin
-
-
-
-vscanf(<#T##UnsafePointer<Int8>#>, <#T##CVaListPointer#>)
